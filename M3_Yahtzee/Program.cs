@@ -22,7 +22,7 @@ namespace M3_Yahtzee
                 string input = Console.ReadLine();
                 _nrDice = int.Parse(input);
 
-                ICupOfDice cup2 = new csCupOfDice(_nrDice);
+                ICupOfDice cup2 = null;//new csCupOfDice(_nrDice);
                 Console.WriteLine($"Newly created cup\n{cup2}");
                 Console.WriteLine($"NrOfDice: {cup2.Count}");
                 Console.WriteLine($"Dice[0]: {cup2[0]}");
