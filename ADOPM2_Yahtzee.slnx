@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="M3_Yahtzee\M3_Yahtzee.csproj" />
+  <Project Path="ConsoleInput\ConsoleInput.csproj" />
+  <Project Path="SeedGenerator\SeedGenerator.csproj" />
+</Solution>
